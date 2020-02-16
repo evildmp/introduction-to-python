@@ -116,6 +116,8 @@ Tuples, lists and sets are all examples of Python *collections*.
 Tuples
 ^^^^^^
 
+::
+
     >>> elements = ("hydrogen", "helium", "lithium", "beryllium", "boron")
     >>> type(elements)
     <type 'tuple'>
@@ -134,12 +136,14 @@ Tuples
 Lists
 ^^^^^
 
+::
+
     >>> elements = list(elements)
     >>> type(elements)
     <type 'list'>
 
 Lists can be sliced in the same way as tuples. Unlike tuples, lists can be
-maniupulated once created.
+maniupulated once created::
 
     >>> elements.sort()
     >>> elements
@@ -149,7 +153,9 @@ maniupulated once created.
 class - it's a list *object* - and will have all the abilities that lists can
 have.
 
-    # the items in collection don't have to be of the same type
+::
+
+    # the items in collection don't even have to be of the same type
     >>> elements.append(37)
     >>> elements
     ['beryllium', 'boron', 'helium', 'hydrogen', 'lithium', 37]
@@ -169,6 +175,8 @@ Sets
 
 A set is an unordered collection with no duplicate elements.
 
+::
+
     >>> life = ["fun", "fun", "fun", "boring", "fun"]
     >>> set(life)
     set(['fun', 'boring'])
@@ -176,6 +184,8 @@ A set is an unordered collection with no duplicate elements.
 
 Dictionaries
 ------------
+
+::
 
     >>> legs = {"spider": 6, "dog": 4, "bird": 2, "ant": 6}
     >>> legs["bird"]
@@ -205,6 +215,8 @@ https://docs.python.org/3/tutorial/datastructures.html#dictionaries
 
 Loops
 -----
+
+::
 
     >>> for item in range(100):
     ...     item
@@ -286,6 +298,8 @@ We can have multiple arguments::
 
 Let's play a game. For this we need to *import* the ``random`` *module*, and
 use the ``choice()`` function.
+
+::
 
     >>> import random
 
