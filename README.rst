@@ -170,7 +170,7 @@ have.
     'bread']]
 
 
-http://docs.python.org/2/tutorial/introduction.html#lists
+http://docs.python.org/3/tutorial/introduction.html#lists
 
 
 Sets
