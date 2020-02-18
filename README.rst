@@ -4,13 +4,16 @@ Getting started with Python
 The Python interpreter
 ----------------------
 
-Type ``python3`` in a terminal window::
+Type ``python`` or ``python3`` in a terminal window::
 
     $ python3
     Python 3.7.3 (default, Jun 19 2019, 07:38:49)
     [Clang 10.0.1 (clang-1001.0.46.4)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
+
+As long as the response starts with "Python 3...", that's OK. If you don't get
+by typing ``python`` try doing ``python3`` instead.
 
 You're now in the Python interpreter. To exit, hit ``control d``.
 
