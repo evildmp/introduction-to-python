@@ -6,7 +6,7 @@ The Python interpreter
 
 Type ``python3`` in a terminal window::
 
-    $ python
+    $ python3
     Python 3.7.3 (default, Jun 19 2019, 07:38:49)
     [Clang 10.0.1 (clang-1001.0.46.4)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
