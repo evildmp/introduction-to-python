@@ -12,7 +12,7 @@ Type ``python`` or ``python3`` in a terminal window::
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
-As long as the response starts with "Python 3...", that's OK. If you don't get
+As long as the response starts with "Python 3...", that's OK. If you don't get it
 by typing ``python`` try doing ``python3`` instead.
 
 You're now in the Python interpreter. To exit, hit ``control d``.
