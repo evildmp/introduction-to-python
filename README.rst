@@ -41,11 +41,22 @@ We're using Python *operators*.
     >>> 6 - 7
     -1
     >>> 8 / 2
-    4
-    >>> 8 / 3.0
+    4.0
+    >>> 8 / 3
     2.6666666666666665
+
+Some other useful operators::
+
+    >>> # 3 to the power of 2
     >>> 3 ** 2
     9
+    >>> # division, but only into whole numbers
+    >>> 19 // 4 
+    4
+    >>> # and the remainder 
+    >>> 19 % 4
+    3
+
 
 https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator
 
@@ -247,7 +258,7 @@ Loops
 
     # you can add an if clause to filter the results
     # let's get squares of even numbers only
-    >>> squares = [item * item for item in range(10) if item/2 == item/2.0]
+    >>> squares = [item * item for item in range(10) if item % 2 == 0]
     >>> squares
     [0, 4, 16, 36, 64]
 
